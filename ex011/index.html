@@ -1,0 +1,28 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_icon/favicon.ico" type="image/x-con">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador</p>
+
+    <picture> <!--Sempre colocar na ordem, menor para o maior para o código não dar erro-->
+        <source media="(max-width: 750px)" srcset="_imagens/p.png" type="image/png">
+        <source media="(max-width: 1070px)" srcset="_imagens/m.png" type="image/png">
+        <img src="_imagens/g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls> <!--Formatos suportados: mp3/mpeg, wav e OGG-->
+        <source src="_media/Catch your dreams.mp3" type="audio/mpeg">
+        <source src="_media/Catch your dreams.wav" type="audio/wav">
+        <source src="_media/Catch your dreams.ogg" type="audio/ogg">
+        <p>Infelizmente não foi possivel carregar o áudio, para fazer o download do arquivo, <a href="_media/Catch your dreams.mp3">Clicando aqui!</a></p>
+    </audio>
+</body>
+</html>
