@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A6);
+}
+
+main {
+    background-color: white;
+    border-radius: 20px; 
+    box-shadow: 
+    0px 10px 10px black;
+    width: 600px;
+    padding: 10px; /* Bordas em volta*/
+    margin: auto; /* Sempre vai ficar no meio independentemente do tamanho da tela */ 
+}
+
+h1 {
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 { 
+    color: #125189;
+}
+
+p {
+    text-align: justify;
+}
